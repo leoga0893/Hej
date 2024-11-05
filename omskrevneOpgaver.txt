@@ -1,0 +1,29 @@
+6.4 Opgave
+
+Deklarer en variabel str af datatypen String. Initier str med værdien: "Hej med dig!". Lav en løkke, som udskriver de 5 første bogstaver sætningen "Hej med dig!", og begrund hvorfor du har valgt den. Tip: Brug funktionen charAt() som er knyttet til String sammen med din tæller. Slå funktionen op i dokumentationen.
+
+
+6.5 Opgave
+
+Lav en løkke, som skal finde alle e'er i sætningen: "Dette er en sætning, som indeholder mange e'er. Men hvor mange er der?" Løkken skal udskrive alle e'er og udskrive hvor mange e'er som er fundet.
+Til sidst udskrives længden af ovenstående sætning.
+
+6.6 Opgave
+
+Du skal lave et while-loop, som sammenligner alle bogstaver i en streng med et 'Z'. Når betingelsen er sand, skal løkken stoppe. Brug denne streng: "I Afrika lever der mange dyr på savannen, et af dem er zebraen. Zebraen er en flok dyr." Tip: Du kan bruge str.toLowerCase() eller str.toUpperCase(), hvis din streng hedder str, ellers skal du lede efter både 'z' og 'Z'. For at sammenligne tegn kan du bruge betingelsen: str.charAt(i) == 'Z'. 
+
+6.7 Opgave
+
+Denne opgave ligner den tidligere, men der er forskel. Du skal lave en for-løkke, som tæller alle 'Z' og 'z' i en streng. Udskriv "Antal z'er: " til konsollen sammen med antallet af z'er . Brug denne streng: "I Afrika lever der mange dyr på savannen, et af dem er zebraen. Zebraen er en flok dyr.".
+
+7.1 Opgave
+
+Skriv et program, hvor dit canvas har størrelsen 800x800. Lav en funktion, som tegner en cirkel i midten af dit canvas. Navngiv din funktion så den er beskrivende. Opret en funktion, som tegner en blå firkant. Navn denne funktion så den også er beskrivende.
+
+7.2 Opgave
+
+Tilpas din funktion så den tegner 8 cirkler, brug den passende løkke og beskriv hvorfor du har valgt den. Brug dit index til at gange med dit x-koordinat i cirklen, således at din cirkel ikke bliver tegnet det samme sted.
+
+7.3 Opgave
+
+Lav en blomst af cirkler og en firkant, placer firkanten i midten og lav kronbladene af 8 cirkler. Du kan måske bruge funktionerne pushMatrix(), popMatrix(), translate() og rotate()?
